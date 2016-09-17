@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * Displays the user's name, age, gender, and statistics
- * based on their age.
+ * based on his/her age.
  *
  * @author Amber Jackson
  * @version 01-25-2016
@@ -17,6 +17,7 @@ public class AgeStatistics {
 
    public static void main(String[] args) {
       Scanner userInput = new Scanner(System.in);
+      String name = "";
       int ageInYears = 0;
       int gender = 0;
       double maxHeartRate = 0;
