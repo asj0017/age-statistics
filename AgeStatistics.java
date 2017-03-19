@@ -1,19 +1,6 @@
 import java.util.Scanner;
 
-/**
- * Displays the user's name, age, gender, and statistics
- * based on his/her age.
- *
- * @author Amber Jackson
- * @version 01-25-2016
- */
-
 public class AgeStatistics {
-  /**
-   * Prints to std output.
-   *
-   * @param args Command line arguments (not used).
-   */
 
    public static void main(String[] args) {
       Scanner userInput = new Scanner(System.in);
